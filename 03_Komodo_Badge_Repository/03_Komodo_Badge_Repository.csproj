@@ -45,5 +45,11 @@
     <Compile Include="BadgeRepositorycs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\03_Komodo_Badge\03_Komodo_Badge.csproj">
+      <Project>{64D1D6A3-0C7E-4B22-BBE4-7D476678BE9E}</Project>
+      <Name>03_Komodo_Badge</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
