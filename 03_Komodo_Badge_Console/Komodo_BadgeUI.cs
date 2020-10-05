@@ -1,4 +1,6 @@
-﻿using System;
+﻿using _03_Komodo_Badge;
+using _03_Komodo_Badge_Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +10,23 @@ namespace _03_Komodo_Badge_Console
 {
     class Komodo_BadgeUI
     {
+        private readonly IConsole _console;
+        private readonly BadgeRepositorycs _menuRepo = new BadgeRepository();
         static void Main(string[] args)
         {
+            IConsole console = new RealConsole();
+            ProgramUI ui = new ProgramUI(console);
+            ui.Run();
+        }
+
+        public ProgramUI(IConsole console)
+        {
+            _console = console;
+        }
+        public void Run()
+        {
+            SeedContent();
+            RunMenu();
         }
     }
 

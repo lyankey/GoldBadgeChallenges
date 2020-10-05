@@ -9,26 +9,43 @@ namespace _03_Komodo_Badge_Repository
 {
     public class BadgeRepository
     {
-        protected readonly Dictionary<int, BadgeContent> _contentDirectory = new Dictionary<int, BadgeContent>();
+        public Dictionary<int, List<string>> _badgesDirectory = new Dictionary<int, List<string>>();
         //CRUD Create Read Update Delete
 
-        public bool AddContentToDirectory(BadgeContent content)
+        public bool ContainsKey(int key)
         {
-            int startingCount = _contentDirectory.Count();
-            //_contentDirectory.Add(content);
-            //bool wasAdded = (_contentDirectory.Count > startingCount) ? true : false;
-            return true;
+            bool keyIs = _badgesDirectory.ContainsKey(key);
+            if (keyIs)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void AddContentToDirectory(int badgeId)
+        {
+            List<string> doors = new List<string>();
+            BadgeContent newBadge = new BadgeContent(badgeId, doors);
+            if (!ContainsKey(badgeId))
+            {
+                _badgesDirectory.Add(newBadge.BadgeId, newBadge.Doors);
+            }
+       
+         
         }
         //READ ALL
-        public Dictionary<int, BadgeContent> GetContents()
+        public Dictionary<int, List<string>> GetContents()
         {
-            return _contentDirectory;
+            return _badgesDirectory;
         }
         //READ ONE
-        public BadgeContent GetContentById(int badgeId)
+        public List<string> GetContentById(int badgeId)
         {
-            BadgeContent badgeContent = new BadgeContent();
-            bool hasValue = _contentDirectory.TryGetValue(badgeId, out badgeContent);
+            List<string> badgeContent = new List<string>();
+            bool hasValue = _badgesDirectory.TryGetValue(badgeId, out badgeContent);
             if (hasValue)
             {
                 // key exists
@@ -42,26 +59,28 @@ namespace _03_Komodo_Badge_Repository
 
         }
         //Update 
-        public bool UpdateExistingContent(int badgeId, BadgeContent newContent)
+        public void AddNewBadge(int badgeId)
         {
-            BadgeContent oldContent = GetContentById(badgeId);
-            if (oldContent != null)
+            List<string> doors = new List<string>();
+            BadgeContent newBadge = new BadgeContent(badgeId, doors);
+            if (!ContainsKey(badgeId))
             {
-                oldContent.BadgeId = newContent.BadgeId;
-                oldContent.Doors = newContent.Doors;
-
-                return true;
+                _badgesDirectory.Add(newBadge.BadgeId, newBadge.Doors);
             }
             else
             {
-                return false;
+                Console.WriteLine("This badge ID has already been used.");
             }
         }
         //Delete
-        public bool DeleteExistingContent(BadgeContent existingContent)
+        public bool DeleteExistingDoors(int badgeId)
         {
-            // bool deleteResult = _contentDirectory.Remove(existingContent);
+            _badgesDirectory[badgeId].Clear();
             return false;
+        }
+        public Dictionary<int, List<string>> GetBadgeList()
+        {
+            return _badgesDirectory;
         }
     }
    
