@@ -44,7 +44,6 @@
     <Compile Include="Claims_Content.cs" />
     <Compile Include="Claims_Content_Repository.cs" />
     <Compile Include="Claims_Content_Repository_cs.cs" />
-    <Compile Include="Claim_Type.cs" />
     <Compile Include="IConsole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Real_Console.cs" />

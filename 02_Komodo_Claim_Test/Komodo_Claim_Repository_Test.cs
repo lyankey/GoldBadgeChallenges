@@ -44,22 +44,7 @@ namespace _02_Komodo_Claim_Test
 
             }
 
-            private ClaimsContentRepository repo;
-            private ClaimsContent content;
-            [TestInitialize]
-
-            //because of the way the below method is written, you don't have to write this code again as long as you're in this class. The _ means it's a field
-            //Arrange
-         
-            [TestMethod]
-            public void GetNextClaim_ShouldReturnCorrectContent()
-            {
-                //ACT
-                ClaimsContent searchResult = repo.GetNextClaim(1);
-
-                //ASSERT
-                Assert.AreEqual(content, searchResult);
-            }
+    
 
   
 
