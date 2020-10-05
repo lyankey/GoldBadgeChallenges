@@ -12,29 +12,12 @@ namespace _03_Komodo_Badge_Repository
         public Dictionary<int, List<string>> _badgesDirectory = new Dictionary<int, List<string>>();
         //CRUD Create Read Update Delete
 
-        public bool ContainsKey(int key)
+        public bool AddContentToDirectory(BadgeContent content)
         {
-            bool keyIs = _badgesDirectory.ContainsKey(key);
-            if (keyIs)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
-        public void AddContentToDirectory(int badgeId)
-        {
-            List<string> doors = new List<string>();
-            BadgeContent newBadge = new BadgeContent(badgeId, doors);
-            if (!ContainsKey(badgeId))
-            {
-                _badgesDirectory.Add(newBadge.BadgeId, newBadge.Doors);
-            }
-       
-         
+            int startingCount = _badgesDirectory.Count();
+            _badgesDirectory.Add(content.BadgeId, content.Doors);
+            bool wasAdded = (_badgesDirectory.Count > startingCount) ? true : false;
+            return true;
         }
         //READ ALL
         public Dictionary<int, List<string>> GetContents()
@@ -44,57 +27,33 @@ namespace _03_Komodo_Badge_Repository
         //READ ONE
         public List<string> GetContentById(int badgeId)
         {
-            List<string> badgeContent = new List<string>();
-            bool hasValue = _badgesDirectory.TryGetValue(badgeId, out badgeContent);
+            List<string> myValue = new List<string>();
+            bool hasValue = _badgesDirectory.TryGetValue(badgeId, out myValue);
             if (hasValue)
             {
                 // key exists
-                return badgeContent;
+                return _badgesDirectory[badgeId];
             }
             else
             {
                 // key doesn't exist
                 return null;
             }
+            //return null;
 
-        }
- 
-        public void CheckAddNewBadge(int badgeId)
-        {
-            List<string> doors = new List<string>();
-            BadgeContent newBadge = new BadgeContent(badgeId, doors);
-            if (!ContainsKey(badgeId))
-            {
-                _badgesDirectory.Add(newBadge.BadgeId, newBadge.Doors);
-            }
-            else
-            {
-                Console.WriteLine("This badge ID has already been used.");
-            }
         }
         //Update 
-
-        public void AddADoor(int badgeId, string Door)
+        public bool UpdateExistingContent(int badgeId, BadgeContent newContent)
         {
-            _badgesDirectory[badgeId].Add(Door);
-        }
-
-        public void RemoveADoor(int badgeId, string Door)
-        {
-            _badgesDirectory[badgeId].Remove(Door);
-        }
-
-
-        //Delete
-        public bool DeleteExistingDoors(int badgeId)
-        {
-            _badgesDirectory[badgeId].Clear();
+   
             return false;
         }
-        public Dictionary<int, List<string>> GetBadgeList()
+        //Delete
+        public bool DeleteExistingContent(BadgeContent existingContent)
         {
-            return _badgesDirectory;
+            // bool deleteResult = _contentDirectory.Remove(existingContent);
+            return false;
         }
     }
-   
+
 }
