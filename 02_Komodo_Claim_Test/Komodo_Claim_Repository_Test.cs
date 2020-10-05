@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using _02_Komodo_Claim;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -28,17 +29,17 @@ namespace _02_Komodo_Claim_Test
             public void GetDirectory_ShouldReturnCorrectMenuList()
             {
                 //Arrange
-                ClaimsContent newMenuItem = new ClaimsContent();
+                ClaimsContent newItem = new ClaimsContent();
                 ClaimsContentRepository repoMenu = new ClaimsContentRepository();
                 //StreamingContent secondObject = new StreamingContent();
 
-                repoMenu.AddContentToDirectory(newMenuItem);
+                repoMenu.AddContentToDirectory(newItem);
 
                 //ACT
                 List<ClaimsContent> listOfContents = repoMenu.GetContents();
 
                 //ASSERT
-                bool directoryHasContent = listOfContents.Contains(newMenuItem);
+                bool directoryHasContent = listOfContents.Contains(newItem);
                 Assert.IsTrue(directoryHasContent);
 
             }
@@ -49,22 +50,21 @@ namespace _02_Komodo_Claim_Test
 
             //because of the way the below method is written, you don't have to write this code again as long as you're in this class. The _ means it's a field
             //Arrange
-            public void Arrange()
-            {
-                repo = new ClaimsContentRepository();
-                content = new ClaimsContent(1, "Shrimp", "The shrimpinest shrimp in the west", 3.99m, new List<string>());
-                repo.AddContentToDirectory(content);
-            }
+         
             [TestMethod]
-            public void GetbyNameOfDish_ShouldReturnCorrectContent()
+            public void GetNextClaim_ShouldReturnCorrectContent()
             {
                 //ACT
-                ClaimsContent searchResult = repo.GetContents("Shrimp");
+                ClaimsContent searchResult = repo.GetNextClaim(1);
 
                 //ASSERT
                 Assert.AreEqual(content, searchResult);
             }
 
+  
+
         }
-    
+
+    }
+}
 
