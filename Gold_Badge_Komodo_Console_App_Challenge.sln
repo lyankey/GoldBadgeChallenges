@@ -23,6 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Komodo_Test", "03_Komodo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Komodo_Badge_Repository", "03_Komodo_Badge_Repository\03_Komodo_Badge_Repository.csproj", "{11654F68-B5ED-42F6-AA6E-6E6EF8732840}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Komodo_Outings_Console", "04_Komodo_Outings_Console\04_Komodo_Outings_Console.csproj", "{DE045A7F-6F23-467A-9066-277868E67D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Komodo_Outings", "04_Komodo_Outings\04_Komodo_Outings.csproj", "{DCAF1004-6BF3-4B34-96B7-B668E80EB83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Komodo_Outings_Repository", "04_Komodo_Outings_Repository\04_Komodo_Outings_Repository.csproj", "{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +75,18 @@ Global
 		{11654F68-B5ED-42F6-AA6E-6E6EF8732840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11654F68-B5ED-42F6-AA6E-6E6EF8732840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11654F68-B5ED-42F6-AA6E-6E6EF8732840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE045A7F-6F23-467A-9066-277868E67D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE045A7F-6F23-467A-9066-277868E67D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE045A7F-6F23-467A-9066-277868E67D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE045A7F-6F23-467A-9066-277868E67D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAF1004-6BF3-4B34-96B7-B668E80EB83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAF1004-6BF3-4B34-96B7-B668E80EB83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAF1004-6BF3-4B34-96B7-B668E80EB83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAF1004-6BF3-4B34-96B7-B668E80EB83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
