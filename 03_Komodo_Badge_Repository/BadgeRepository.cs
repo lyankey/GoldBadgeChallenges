@@ -58,8 +58,8 @@ namespace _03_Komodo_Badge_Repository
             }
 
         }
-        //Update 
-        public void AddNewBadge(int badgeId)
+ 
+        public void CheckAddNewBadge(int badgeId)
         {
             List<string> doors = new List<string>();
             BadgeContent newBadge = new BadgeContent(badgeId, doors);
@@ -72,6 +72,19 @@ namespace _03_Komodo_Badge_Repository
                 Console.WriteLine("This badge ID has already been used.");
             }
         }
+        //Update 
+
+        public void AddADoor(int badgeId, string Door)
+        {
+            _badgesDirectory[badgeId].Add(Door);
+        }
+
+        public void RemoveADoor(int badgeId, string Door)
+        {
+            _badgesDirectory[badgeId].Remove(Door);
+        }
+
+
         //Delete
         public bool DeleteExistingDoors(int badgeId)
         {
