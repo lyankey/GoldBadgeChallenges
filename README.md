@@ -8,8 +8,10 @@ These are Dotnet console aps written using C# and a repository pattern. They wil
 
 **Table of Contents**
 This includes console apps for challenges 1, 2, 3, and 4. They are each variations of a CRUD console.  
-1 Restaurant Menu | 2 Insurance Console | 3 Security Badges----------------------| 4 Outings Expenditures
-CRUD--------------| CRUD with a list----|CRUD with dictionary and keyvalue pairs-| CRUD with parsing strings to ints, doubles, dates
+1 Restaurant Menu: CRUD
+ 2 Insurance Console: CRUD with a list and display in a table
+ 3 Security Badges: CRUD with dictionary and keyvalue pairs
+ 4 Outings Expenditures: CRUD with parsing strings to ints, doubles, dates
 
 
 **Installation:**
