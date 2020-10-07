@@ -8,3 +8,13 @@ C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Co
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\02_Komodo_Claim_Console\obj\Debug\02_Komodo_Claim_Console.csproj.CopyComplete
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\02_Komodo_Claim_Console\obj\Debug\02_Komodo_Claim_Console.exe
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\02_Komodo_Claim_Console\obj\Debug\02_Komodo_Claim_Console.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\bin\Debug\02_Komodo_Claim_Console.exe.config
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\bin\Debug\02_Komodo_Claim_Console.exe
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\bin\Debug\02_Komodo_Claim_Console.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\bin\Debug\02_Komodo_Claim.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\bin\Debug\02_Komodo_Claim.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\obj\Debug\02_Komodo_Claim_Console.csprojAssemblyReference.cache
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\obj\Debug\02_Komodo_Claim_Console.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\obj\Debug\02_Komodo_Claim_Console.csproj.CopyComplete
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\obj\Debug\02_Komodo_Claim_Console.exe
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\02_Komodo_Claim_Console\obj\Debug\02_Komodo_Claim_Console.pdb

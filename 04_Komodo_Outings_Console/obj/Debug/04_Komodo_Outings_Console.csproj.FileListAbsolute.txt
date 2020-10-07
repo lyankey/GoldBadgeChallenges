@@ -10,3 +10,15 @@ C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Co
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\04_Komodo_Outings_Console\obj\Debug\04_Komodo_Outings_Console.csproj.CopyComplete
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\04_Komodo_Outings_Console\obj\Debug\04_Komodo_Outings_Console.exe
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\04_Komodo_Outings_Console\obj\Debug\04_Komodo_Outings_Console.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\bin\Debug\04_Komodo_Outings_Console.exe.config
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\bin\Debug\04_Komodo_Outings_Console.exe
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\bin\Debug\04_Komodo_Outings_Console.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\bin\Debug\04_Komodo_Outings.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\bin\Debug\04_Komodo_Outings_Repository.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\bin\Debug\04_Komodo_Outings.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\bin\Debug\04_Komodo_Outings_Repository.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\obj\Debug\04_Komodo_Outings_Console.csprojAssemblyReference.cache
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\obj\Debug\04_Komodo_Outings_Console.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\obj\Debug\04_Komodo_Outings_Console.csproj.CopyComplete
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\obj\Debug\04_Komodo_Outings_Console.exe
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\04_Komodo_Outings_Console\obj\Debug\04_Komodo_Outings_Console.pdb

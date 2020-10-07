@@ -10,3 +10,15 @@ C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Co
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\03_Komodo_Badge_Console\obj\Debug\03_Komodo_Badge_Console.csproj.CopyComplete
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\03_Komodo_Badge_Console\obj\Debug\03_Komodo_Badge_Console.exe
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\03_Komodo_Badge_Console\obj\Debug\03_Komodo_Badge_Console.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\bin\Debug\03_Komodo_Badge_Console.exe.config
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\bin\Debug\03_Komodo_Badge_Console.exe
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\bin\Debug\03_Komodo_Badge_Console.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\bin\Debug\03_Komodo_Badge.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\bin\Debug\03_Komodo_Badge_Repository.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\bin\Debug\03_Komodo_Badge.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\bin\Debug\03_Komodo_Badge_Repository.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\obj\Debug\03_Komodo_Badge_Console.csprojAssemblyReference.cache
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\obj\Debug\03_Komodo_Badge_Console.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\obj\Debug\03_Komodo_Badge_Console.csproj.CopyComplete
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\obj\Debug\03_Komodo_Badge_Console.exe
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Badge_Console\obj\Debug\03_Komodo_Badge_Console.pdb

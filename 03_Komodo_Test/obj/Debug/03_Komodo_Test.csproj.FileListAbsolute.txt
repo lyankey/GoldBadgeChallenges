@@ -16,3 +16,21 @@ C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Co
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\03_Komodo_Test\obj\Debug\03_Komodo_Test.csproj.CopyComplete
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\03_Komodo_Test\obj\Debug\03_Komodo_Test.dll
 C:\ElevenFiftyProjects\Gold Badge\Gold Badge Challenge\Gold_Badge_Komodo_Cafe_Console_App_Challenge\03_Komodo_Test\obj\Debug\03_Komodo_Test.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\03_Komodo_Test.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\03_Komodo_Test.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\03_Komodo_Badge.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\03_Komodo_Badge_Repository.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\03_Komodo_Badge.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\03_Komodo_Badge_Repository.pdb
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\obj\Debug\03_Komodo_Test.csprojAssemblyReference.cache
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\obj\Debug\03_Komodo_Test.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\obj\Debug\03_Komodo_Test.csproj.CopyComplete
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\obj\Debug\03_Komodo_Test.dll
+C:\Users\Jeff\Downloads\GoldBadgeChallenges-main (1)\GoldBadgeChallenges-main\03_Komodo_Test\obj\Debug\03_Komodo_Test.pdb

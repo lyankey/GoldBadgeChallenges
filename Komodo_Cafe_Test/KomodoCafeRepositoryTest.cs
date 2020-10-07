@@ -9,7 +9,7 @@ namespace Komodo_Cafe_Test
     public class KomodoCafeRepositoryTest
     {
         [TestMethod]
-        public void AddToDirectory_ShouldGetCorrectBoolean()
+        public void AddContentToDirectoryTest()
         {
             //Arrange
             MenuContent content = new MenuContent();
@@ -23,12 +23,11 @@ namespace Komodo_Cafe_Test
         }
 
         [TestMethod]
-        public void GetDirectory_ShouldReturnCorrectMenuList()
+        public void GetContentsTest()
         {
             //Arrange
             MenuContent newMenuItem = new MenuContent();
             MenuContentRepository repoMenu = new MenuContentRepository();
-            //StreamingContent secondObject = new StreamingContent();
 
             repoMenu.AddContentToDirectory(newMenuItem);
 
@@ -41,45 +40,54 @@ namespace Komodo_Cafe_Test
 
         }
 
-        private MenuContentRepository repo;
-        private MenuContent content;
-        [TestInitialize]
-
-        //because of the way the below method is written, you don't have to write this code again as long as you're in this class. The _ means it's a field
-        //Arrange
+        [TestMethod]
         public void Arrange()
         {
-            repo = new MenuContentRepository();
-            content = new MenuContent(1,"Shrimp", "The shrimpinest shrimp in the west", 3.99m, new List<string>());
+            MenuContentRepository repo = new MenuContentRepository();
+            MenuContent content = new MenuContent(1,"Shrimp", "The shrimpinest shrimp in the west", 3.99m, new List<string>());
             repo.AddContentToDirectory(content);
         }
         [TestMethod]
-        public void GetbyNameOfDish_ShouldReturnCorrectContent()
+        public void GetContentByNameTest()
         {
+            //Arrange
+            MenuContent content = new MenuContent(1, "Crab Rangoons", "The rangooniest rangoons in the west", 2.99m, new List<string>());
+            MenuContentRepository repo = new MenuContentRepository();
+            repo.AddContentToDirectory(content);
+
             //ACT
-            MenuContent searchResult = repo.GetContentByName("Shrimp");
+            MenuContent searchResult = repo.GetContentByName("Crab Rangoons");
 
             //ASSERT
             Assert.AreEqual(content, searchResult);
         }
         [TestMethod]
-        public void UpdateExistingContent_ShouldReturnTrue()
+        public void UpdateExistingContentTest()
         {
             //Arrange
-            MenuContent updatedContent = new MenuContent(2, "Crab Rangoons", "The rangooniest rangoons in the west", 2.99m, new List<string>());
+            MenuContent content = new MenuContent(1, "Crab Rangoons", "The rangooniest rangoons in the west", 2.99m, new List<string>());
+            MenuContent updatedContent = new MenuContent(1, "Crab Rangoons", "The rangoonier rangoons in the west", 5.99m, new List<string>());
+            MenuContentRepository repo = new MenuContentRepository();
             repo.AddContentToDirectory(content);
+
             //ACT
             bool updateResult = repo.UpdateExistingContent("Crab Rangoons", updatedContent);
+
             //ASSERT
             Assert.IsTrue(updateResult);
         }
         [TestMethod]
-        public void DeleteExistingContent_ShouldReturnTrue()
+        public void DeleteExistingContentTest()
         {
             //arrange
-            MenuContent foundContent = repo.GetContentByName("Crab Rangoons");
+            MenuContent content = new MenuContent(1, "Crab Rangoons", "The rangooniest rangoons in the west", 2.99m, new List<string>());
+            MenuContentRepository _repo = new MenuContentRepository();
+
+            bool addResult = _repo.AddContentToDirectory(content);
+
             //ACT
-            bool removeResult = repo.DeleteExistingContent(foundContent);
+            bool removeResult = _repo.DeleteExistingContent(content);
+
             //Assert
             Assert.IsTrue(removeResult);
         }
