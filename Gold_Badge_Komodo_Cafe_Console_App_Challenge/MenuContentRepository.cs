@@ -23,7 +23,7 @@ namespace Gold_Badge_Komodo_Cafe_Console_App_Challenge_Repository
         {
             return _contentDirectory;
         }
-        //READ ONE
+       // READ ONE
         public MenuContent GetContentByName(string name)
         {
             foreach (MenuContent singleContent in _contentDirectory)
