@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Komodo_Outings", "04_Kom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Komodo_Outings_Repository", "04_Komodo_Outings_Repository\04_Komodo_Outings_Repository.csproj", "{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Komodo_Greeting", "05_Komodo_Greeting\05_Komodo_Greeting.csproj", "{4BDA5BDC-9FA7-4265-A650-9E0162EC8C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Komodo_Greeting_Class", "05_Komodo_Greeting_Class\05_Komodo_Greeting_Class.csproj", "{1DD17EAC-3BE2-47C9-A9D3-67125F7A8C21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C251555-DBD7-4B67-A9C2-31B2EC7E9F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDA5BDC-9FA7-4265-A650-9E0162EC8C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDA5BDC-9FA7-4265-A650-9E0162EC8C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDA5BDC-9FA7-4265-A650-9E0162EC8C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDA5BDC-9FA7-4265-A650-9E0162EC8C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD17EAC-3BE2-47C9-A9D3-67125F7A8C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD17EAC-3BE2-47C9-A9D3-67125F7A8C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD17EAC-3BE2-47C9-A9D3-67125F7A8C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD17EAC-3BE2-47C9-A9D3-67125F7A8C21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
